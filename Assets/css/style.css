@@ -1,0 +1,53 @@
+:root {
+    --bgcolor: rgb(45, 189, 199);
+    --font-color: rgb(88, 14, 14);
+    --question-color: rgb(24, 48, 158);
+  }
+  
+  * {
+    box-sizing: border-box;
+    font-size: 50px;
+  }
+  
+  body, html {
+    display: flex;
+    justify-content: center;
+    background-color: var(--bgcolor);
+    color: var(--font-color);
+    height: 100%;
+    width: 100%;
+  }
+  
+  .container {
+    text-align: center;
+    width: 75%;
+    height: 100%;
+  }
+  
+  .title {
+    margin-bottom: 12px;
+  }
+  
+ /*quize stuff*/ 
+  
+  #quiz results {
+    background-color: var(--question-color);
+    margin: 0 10px 10px;
+  }
+  
+  .quiz questions--question {
+    background-color: var(--question-color);
+    margin: 0 10px 10px;
+    padding: 21px 21px;
+    text-align: left;
+  }
+  
+  .quiz questions--question > p {
+    line-height: 30px;
+    font-weight: 700;
+  }
+  
+  input, button, submit { 
+    border: none; 
+  } 
+  
